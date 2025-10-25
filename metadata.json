@@ -1,0 +1,5 @@
+{
+  "name": "Calculadora de Aceleradores de Lords Mobile",
+  "description": "Una calculadora para sumar varios tipos de aceleradores del juego Lords Mobile. Permite a los usuarios ingresar cantidades para aceleradores normales, de investigación y de entrenamiento y calcula automáticamente los totales individuales y combinados en un formato legible.",
+  "requestFramePermissions": []
+}
