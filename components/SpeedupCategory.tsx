@@ -1,7 +1,6 @@
-
 import React from 'react';
-import { ACCELERATORS } from '../constants';
-import type { SpeedupCategoryEnum, SpeedupDenomination, SpeedupValues } from '../types';
+import { ACCELERATORS } from '../constants.ts';
+import type { SpeedupCategoryEnum, SpeedupDenomination, SpeedupValues } from '../types.ts';
 
 interface SpeedupCategoryProps {
   title: string;

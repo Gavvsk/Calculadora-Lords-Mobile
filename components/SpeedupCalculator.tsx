@@ -1,9 +1,9 @@
 import React, { useState, useMemo, useCallback } from 'react';
-import SpeedupCategory from './SpeedupCategory';
-import TotalsDisplay from './TotalsDisplay';
-import { ClockIcon, FlaskIcon, ShieldIcon } from './icons';
-import { SpeedupCategoryEnum, type AllSpeedups, type SpeedupDenomination, type SpeedupValues } from '../types';
-import { ACCELERATORS } from '../constants';
+import SpeedupCategory from './SpeedupCategory.tsx';
+import TotalsDisplay from './TotalsDisplay.tsx';
+import { ClockIcon, FlaskIcon, ShieldIcon } from './icons.tsx';
+import { SpeedupCategoryEnum, type AllSpeedups, type SpeedupDenomination, type SpeedupValues } from '../types.ts';
+import { ACCELERATORS } from '../constants.ts';
 
 const SpeedupCalculator: React.FC = () => {
   const [speedups, setSpeedups] = useState<AllSpeedups>({

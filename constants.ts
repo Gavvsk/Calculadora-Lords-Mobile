@@ -1,5 +1,4 @@
-
-import type { SpeedupDenomination } from './types';
+import type { SpeedupDenomination } from './types.ts';
 
 export const ACCELERATORS: { id: SpeedupDenomination; label: string; value: number }[] = [
   { id: 'm1', label: '1m', value: 1 },

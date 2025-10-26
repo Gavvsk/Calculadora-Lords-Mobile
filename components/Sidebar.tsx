@@ -1,5 +1,5 @@
 import React from 'react';
-import { ClockIcon, CubeIcon, GemIcon, ShieldIcon, SwordIcon, XIcon } from './icons';
+import { ClockIcon, CubeIcon, GemIcon, ShieldIcon, SwordIcon, XIcon } from './icons.tsx';
 
 type View = 'speedups' | 'gem-store' | 'training';
 

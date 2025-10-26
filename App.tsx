@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Sidebar from './components/Sidebar';
-import SpeedupCalculator from './components/SpeedupCalculator';
-import GemStoreCalculator from './components/GemStoreCalculator';
-import TrainingCalculator from './components/TrainingCalculator';
-import { MenuIcon } from './components/icons';
+import Sidebar from './components/Sidebar.tsx';
+import SpeedupCalculator from './components/SpeedupCalculator.tsx';
+import GemStoreCalculator from './components/GemStoreCalculator.tsx';
+import TrainingCalculator from './components/TrainingCalculator.tsx';
+import { MenuIcon } from './components/icons.tsx';
 
 type View = 'speedups' | 'gem-store' | 'training';
 

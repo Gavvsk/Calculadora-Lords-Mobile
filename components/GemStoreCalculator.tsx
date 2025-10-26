@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { GemIcon } from './icons';
+import { GemIcon } from './icons.tsx';
 
 // Solo se consideran los aceleradores de 24h y 15h con sus precios correctos.
 const SPEEDUPS_FOR_GEMS = [
